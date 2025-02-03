@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>PacientCare.Presentation</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PatientCare.Application\PatientCare.Application.csproj" />
+      <ProjectReference Include="..\PatientCare.Domain\PatientCare.Domain.csproj" />
+      <ProjectReference Include="..\PatientCare.Persistence\PatientCare.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
